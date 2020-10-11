@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package alg1_du1_frommel;
 
 import java.util.Scanner;
@@ -52,7 +47,7 @@ public class UsekovaRychlost {
         //výpočty
         rozdilCasu = (hodKonec*3600 + minKonec*60 + secKonec) - (hodPocatek*3600 + minPocatek*60 + secPocatek);
         
-        prumRychlost = (double)(delkaUseku/rozdilCasu);
+        prumRychlost = delkaUseku/rozdilCasu;
         prumRychlostKMH = (double)(prumRychlost * 3.6);
         rozdilRychlosti = (int) (Math.floor(prumRychlostKMH) - maxPovolenaRychlost);
         

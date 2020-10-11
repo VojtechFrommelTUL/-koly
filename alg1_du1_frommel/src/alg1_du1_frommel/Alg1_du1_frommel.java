@@ -14,7 +14,7 @@ public class Alg1_du1_frommel {
     private static Scanner sc = new Scanner(System.in);
     
     public static void main(String[] args) {
-        //UsekovaRychlost.Uloha9a10(sc);
+        UsekovaRychlost.Uloha9a10(sc);
         VypocetGeometrickychTeles.Uloha12(sc);
     }
 }
